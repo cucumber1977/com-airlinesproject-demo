@@ -1,0 +1,93 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "I am on the ticket booking website homepage",
+        "description": "",
+        "type": "background",
+        "keyword": "Background"
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 7605770501,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.steUp()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "Top menu test",
+        "description": "",
+        "id": "ticket-booking-application;top-menu-test",
+        "after": [
+          {
+            "result": {
+              "duration": 104999,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1222805300,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I mouse hoover on support",
+            "match": {
+              "location": "AirlineSteps.iMouseHooverOnSupport()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1985387499,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I mouse hoover and click on customer support",
+            "match": {
+              "location": "AirlineSteps.iMouseHooverAndClickOnCustomerSupport()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 86864601,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I navigate that page and verify the contacts us text",
+            "match": {
+              "location": "AirlineSteps.iNavigateThatPageAndVerifyTheContactsUsText()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 16,
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Ticket Booking Application",
+    "description": "",
+    "id": "ticket-booking-application",
+    "keyword": "Feature",
+    "uri": "airline.feature"
+  }
+]
